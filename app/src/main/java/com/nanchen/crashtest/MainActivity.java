@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        // 实际上下面两个方法都是在 BaseActivity 中做
+        // 实际上下面两个方法都是在BaseActivity中做
         ((App) getApplication()).addActivity(this);
 
         final TextView textView = (TextView) findViewById(R.id.showText);
